@@ -1,0 +1,51 @@
+.container {
+  margin-top: 20px;
+  padding: 30px 100px;
+  background-color: rgb(253, 166, 84);
+  border-radius: 5px;
+  border: black solid 1px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.col,
+.col-md-6 {
+  text-align: center;
+}
+
+#sandwichInput,
+.addBtn,
+.eatBtn {
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+  border: none;
+}
+
+.addBtn,
+.eatBtn {
+  background-color: rgba(255, 0, 0, 0.527);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.addBtn:active,
+.eatBtn:active {
+  background-color: rgba(255, 0, 0, 0.767);
+  border: none;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.822);
+}
+
+.make-sandwich {
+  margin-bottom: 25px;
+}
+
+.col-md-6 {
+  border-right: black solid 1px;
+  margin-bottom: 25px;
+}
+
+img {
+  height: 110px;
+}

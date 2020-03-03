@@ -1,0 +1,28 @@
+{
+  "name": "sandwich-app",
+  "version": "1.0.0",
+  "description": "An app that allows users to input sandwiches that they'd like to eat, and then devour them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordynsaltzman/sandwich-app.git"
+  },
+  "keywords": [
+    "sandwich",
+    "ap"
+  ],
+  "author": "Jordyn Saltzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordynsaltzman/sandwich-app/issues"
+  },
+  "homepage": "https://github.com/jordynsaltzman/sandwich-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1"
+  }
+}

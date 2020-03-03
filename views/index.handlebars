@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row">
+    <div class="col title">
+      <h1>Who's Hungry for Some Sandwiches?</h1>
+      <img src="assets/images/sub-sandwich.png" alt="Sandwich">
+    </div>
+  </div>
+  <br />
+
+  <div class="row make-sandwich">
+    <div class="col">
+      <h2>Make A Sandwich</h2>
+      <form class="create-form">
+        <div class="form-group">
+          <label for="sandwich">Sandwich Name:</label>
+          <input type="text" id="sandwichInput" name="name">
+          <button type="submit" class="addBtn">Whip it up!</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="row sandwich-lists">
+    <div class="col-md-6">
+      <h2>Uneaten</h2>
+      {{#each sandwiches}}
+      {{#unless devoured}}
+      <p> {{sandwich_name}}
+        <button data-id={{id}} class="eatBtn">Eat me!</button></p>
+      {{/unless}}
+      {{/each}}
+    </div>
+    <div class="col-md-6">
+      <h2>Eaten</h2>
+      {{#each sandwiches}}
+      {{#if devoured}}
+      <p>{{sandwich_name}}</p>
+      {{/if}}
+      {{/each}}
+    </div>
+  </div>
+
+
+</div>
