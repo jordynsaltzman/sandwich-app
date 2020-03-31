@@ -2,6 +2,8 @@
 
 The Sandwich Logger is a restaurant app made with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Following the MVC design pattern, it uses Node and MySQL to query and route data in the app, and Handlebars to generate HTML.
 
+Visit deployed site [here.](https://sandwich-logger.herokuapp.com/)
+
 ## Screenshot
 
 ![Screenshot of Site](public/assets/images/screenshot.JPG)
