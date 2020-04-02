@@ -18,9 +18,6 @@ Visit deployed site [here.](https://sandwich-logger.herokuapp.com/)
 `source schema.sql`
 `source seeds.sql`
 
-## Contributors
-
-\*[Jordyn Saltzman](https://github.com/jordynsaltzman)
 
 ## License
 
